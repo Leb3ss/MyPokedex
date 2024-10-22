@@ -1,6 +1,13 @@
 import "./App.css";
-import MyTitle from "./MyTitle";
+
+import PokemonCard from "./components/PokemonCard";
+
 function App() {
-  return <MyTitle />;
+  return (
+    <section>
+      <PokemonCard />
+    </section>
+  );
 }
+
 export default App;
